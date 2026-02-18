@@ -126,7 +126,7 @@ li {
 }
 
 .pricing-grid {
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
@@ -206,7 +206,7 @@ li {
 }
 
 .testimonial {
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(3, 1fr);
   gap: 26px;
   padding: 25px 0;
@@ -244,7 +244,7 @@ li {
 .footer {
   background: #043873;
   color: white;
-  padding: 40px 0;
+padding: 50px;
 }
 
 .footer-top {
